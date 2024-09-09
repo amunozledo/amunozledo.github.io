@@ -2413,6 +2413,7 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+			
 
 /* List */
 
@@ -2819,6 +2820,12 @@ input, select, textarea {
 			margin-top: 3em;
 			padding: 0;
 		}
+		
+			.features li img.feature-image {
+				border-radius: 100%;
+				width: 14em;
+				margin-bottom: 1em;
+			}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
