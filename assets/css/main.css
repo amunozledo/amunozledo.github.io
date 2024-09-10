@@ -3163,19 +3163,29 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/background1.JPEG"), url("images/overlay.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		text-align: left;
 	}
-
-		#banner :last-child {
-			margin-bottom: 0;
-		}
-
+	
+	#banner .content {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
 		}
@@ -3183,13 +3193,41 @@
 		#banner h2 {
 			font-size: 3.5em;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
+			margin: 0;
 		}
-
+		
 		#banner p {
 			font-size: 1.25em;
-			margin-bottom: 1.75em;
+			margin: 0;
+		}
+		
+		.profile-image {
+			width: 16em;
+			height: 16em;
+			border-radius: 100%;
+			border: solid 2px #ffffff;
+			display: block;
+			margin-left: 2em;
+			}
+			
+		@media screen and (max-width:  980px) {
+			#banner {
+				flex-direction: column;
+				text-align: center;
+				padding: 6em 0;
+			}
+			
+			#banner .content {
+				flex-direction: column;
+			}
+			
+			.profile-image {
+				margin: 1em 0;
+			}
+		}
+
+		#banner :last-child {
+			margin-bottom: 0;
 		}
 
 		#banner input[type="submit"],
@@ -3306,7 +3344,7 @@
 		background: #e89980;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
-		text-align: center;
+		text-align: right;
 	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
