@@ -3166,15 +3166,16 @@
 		background-image: url("images/background1.JPEG"), url("images/overlay.png");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-size: cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 8em 0 12em 0 20em 0;
 		text-align: center;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: row;
 		text-align: left;
+		overflow: hidden;
 	}
 	
 	#banner::before {
@@ -3184,7 +3185,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 50, 255, 0.3);
 		filter: blur(5px);
 		z-index: 1;
 	}
@@ -3302,7 +3303,7 @@
 				font-style: normal;
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
-				font-size: 1.75em;
+				font-size: 2em;
 			}
 
 	body.landing #main {
