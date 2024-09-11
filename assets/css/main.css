@@ -3161,7 +3161,7 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll, fixed;
+		background-attachment: fixed;
 		background-color: #666;
 		background-image: url("images/background1.JPEG");
 		background-position: center center;
@@ -3290,6 +3290,7 @@
 		padding: 4em 0;
 		position: relative;
 		z-index: 2;
+		background: none;
 	}
 
 		#main > header {
