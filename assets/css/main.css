@@ -3311,10 +3311,56 @@
 				padding: 1em 0 1.25em 0;
 				font-size: 2em;
 			}
-
+			
 	body.landing #main {
 		margin-top: -14em;
-	}
+		}
+			
+		#main .box.special .content {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 2em;
+			}
+			
+			#main .box.special .image-container img {
+				max-width: 250px;
+				border-radius: 10px;
+				flex-shrink: 0;
+				}
+				
+			#main .box.special .text-container {
+					font-size: 2em;
+					color: #777;
+					max-width: 60%;
+					}
+					
+			#main .box.special .text-container p {
+				font-size: 2em;
+				margin-bottom: 1.5em;
+				}
+				
+			#main .box.special .text-container .actions {
+				text-align: center;
+				}
+				
+			#main .box.special .text-container .actions .button {
+				margin: 0 auto;
+				}
+
+			@media screen and (max-width: 980px) {
+				#main .box.special .content {
+					flex-direction: column;
+					text-align: center;
+					}
+				#main .box.special .image-container {
+					margin-bottom: 1.5em;
+					}
+				#main .box.special .text-container {
+					max-width: 100%;
+					}
+			}
+	
 
 /* Footer */
 
