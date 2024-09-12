@@ -111,6 +111,24 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+		
+		body.home #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.home #header.alt {
+				border-bottom: none;
+				}
+				
+			body.home #header a {
+				color: #fff;
+				}
+
 	
 	body.projects {
 		background-image: url("images/tree_sky.JPEG");
