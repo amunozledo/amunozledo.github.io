@@ -114,7 +114,7 @@
 
 	
 	body.projects {
-		background-image: url("images/tree_sky.JPEG") no-repeat center center fixed;
+		background-image: url("images/tree_sky.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
