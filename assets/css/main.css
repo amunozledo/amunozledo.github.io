@@ -104,8 +104,40 @@
 		box-sizing: inherit;
 	}
 
-	body {
+	body.home {
 		background-image: url("images/seqi.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	body.projects {
+		background-image: url("images/tree_sky.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	body.professional {
+		background-image: url("images/dutchH.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	body.outreach {
+		background-image: url("images/vilo_field.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	body.interests {
+		background-image: url("images/mammoth.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
