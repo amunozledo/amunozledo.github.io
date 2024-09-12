@@ -138,6 +138,18 @@
 		background-size: cover;
 	}
 	
+	body.projects::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(200, 200, 200, 0.3);
+		filter: blur(8px);
+		z-index: 0;
+		}
+	
 		body.projects #header {
 			background-color: transparent;
 			position: absolute;
