@@ -3163,7 +3163,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #666;
-		background-image: url("images/background1.JPEG");
+		background-image: url("images/tree_sky.JPEG");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3283,6 +3283,57 @@
 				background: #fff;
 				color: #666 !important;
 			}
+			
+/* Second Banner  */
+
+#banner2 {
+    background-attachment: fixed;
+    background-color: #666;
+    background-image: url("images/background2.JPEG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 8em 0 12em 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+#banner2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(200, 200, 200, 0.3);
+    filter: blur(8px);
+    z-index: 0;
+}
+
+#banner2 h2, #banner2 p {
+    z-index: 2;
+    position: relative;
+}
+
+#banner2 .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
 
 /* Main */
 
