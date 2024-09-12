@@ -3026,7 +3026,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: none;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
