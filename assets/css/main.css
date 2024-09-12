@@ -138,6 +138,23 @@
 		background-size: cover;
 	}
 	
+		body.projects #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.projects #header.alt {
+				border-bottom: none;
+				}
+				
+			body.projects #header a {
+				color: #fff;
+				}
+	
 	body.professional {
 		background-image: url("images/dutchH.JPEG");
 		background-attachment: fixed;
