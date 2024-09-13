@@ -113,7 +113,7 @@
 	}
 	
 	body.projects {
-		background-image: url("images/noaa_boat.JPEG");
+		background-image: url("images/seqi_sky.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -153,7 +153,7 @@
 				}
 
 	body.portfolio {
-		background-image: url("images/seqi_sky.JPEG");
+		background-image: url("images/dutchH.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -193,7 +193,7 @@
 				}
 				
 	body.professional {
-		background-image: url("images/dutchH.JPEG");
+		background-image: url("images/noaa_boat.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
