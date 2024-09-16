@@ -2597,6 +2597,14 @@
 				display: block;
 				width: 100%;
 			}
+ 
+		.center-image {
+			display: block;
+			margin: 0 auto 20px auto;
+			max-width: 100%;
+			height: auto;
+			}
+
 
 /* List */
 
