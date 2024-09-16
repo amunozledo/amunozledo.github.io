@@ -112,6 +112,18 @@
 		background-size: cover;
 	}
 	
+		body::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(200, 200, 200, 0.3);
+		filter: blur(8px);
+		z-index: -1;
+}
+	
 	body.projects {
 		background-image: url("images/seqi_sky.JPEG");
 		background-attachment: fixed;
@@ -209,24 +221,45 @@
 	}
 	
 	body.interests {
-		background-image: url("images/mammoth.JPEG");
+		background-image: url("images/roots_seqi.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100%;
+		position: relative;
 	}
 	
-	body::before {
+	body.interests::before {
 		content: '';
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
-		background-color: rgba(200, 200, 200, 0.3);
+		height: 100vh;
+		background-color: none;
 		filter: blur(8px);
-		z-index: -1;
-}
+		z-index: 0;
+		pointer-events: none;
+		}
+	
+		body.interests #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.interests #header.alt {
+				border-bottom: none;
+				}
+				
+			body.interests #header a {
+				color: #fff;
+				}
+	
 
 	body, input, select, textarea {
 		color: #777;
@@ -3323,6 +3356,7 @@
 	#banner h2, #banner p {
 		z-index: 2;
 		position: relative;
+		color: #ffffff !important;
 	}
 	
 	#banner .content {
