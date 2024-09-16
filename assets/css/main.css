@@ -209,6 +209,34 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+		
+	body.professional::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: none;
+		pointer-events: none;
+		}
+	
+		body.professional #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.professional #header.alt {
+				border-bottom: none;
+				}
+				
+			body.professional #header a {
+				color: #fff;
+				}
 	
 	body.outreach {
 		background-image: url("images/vilo_field.JPEG");
@@ -217,6 +245,34 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
+	body.outreach::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: none;
+		pointer-events: none;
+		}
+	
+		body.outreach #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.outreach #header.alt {
+				border-bottom: none;
+				}
+				
+			body.outreach #header a {
+				color: #fff;
+				}
 	
 	body.interests {
 		background-image: url("images/roots_seqi.JPEG");
@@ -236,7 +292,6 @@
 		width: 100%;
 		height: 100vh;
 		background-color: none;
-		filter: blur(8px);
 		z-index: 0;
 		pointer-events: none;
 		}
