@@ -3525,7 +3525,7 @@
 				font-style: normal;
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
-				font-size: 1.5em;
+				font-size: 1em;
 			}
 			
 	body.landing #main {
@@ -3547,13 +3547,13 @@
 				}
 				
 			#main .box.special .text-container {
-					font-size: 1.5em;
+					font-size: 1em;
 					color: #777;
 					max-width: 60%;
 					}
 					
 			#main .box.special .text-container p {
-				font-size: 1.5em;
+				font-size: 1em;
 				margin-bottom: 1.5em;
 				}
 				
@@ -3593,13 +3593,13 @@
 				}
 				
 			#main .box .text-container {
-					font-size: 1.5em;
+					font-size: 1em;
 					color: #777;
 					max-width: 60%;
 					}
 					
 			#main .box .text-container p {
-				font-size: 1.5em;
+				font-size: 1em;
 				margin-bottom: 1.5em;
 				}
 				
