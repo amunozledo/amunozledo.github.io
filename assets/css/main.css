@@ -3581,19 +3581,20 @@
 			
 		#main .box .content {
 			display: flex;
-			align-items: center;
+			align-items: flex-start;
 			justify-content: space-between;
 			gap: 2em;
 			}
 			
 			#main .box .image-container {
+				height: 20em;
 				margin-bottom: 1.5em;
-				text-align: center;
+				text-align: right;
 			}
 				
 			
 			#main .box .image-container img {
-				height: 20em;
+				height: 100%;
 				width: auto;
 				object-fit: contain;
 				flex-shrink: 0;
@@ -3624,6 +3625,9 @@
 				#main .box .content {
 					flex-direction: column;
 					text-align: center;
+					}
+				#main .box .image-container {
+					text-aligh: center;
 					}
 				#main .box .image-container img {
 					height: auto;
