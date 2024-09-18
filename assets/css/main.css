@@ -3525,7 +3525,7 @@
 				font-style: normal;
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
-				font-size: 2em;
+				font-size: 1.5em;
 			}
 			
 	body.landing #main {
@@ -3547,13 +3547,13 @@
 				}
 				
 			#main .box.special .text-container {
-					font-size: 2em;
+					font-size: 1.5em;
 					color: #777;
 					max-width: 60%;
 					}
 					
 			#main .box.special .text-container p {
-				font-size: 2em;
+				font-size: 1.5em;
 				margin-bottom: 1.5em;
 				}
 				
@@ -3593,13 +3593,13 @@
 				}
 				
 			#main .box .text-container {
-					font-size: 2em;
+					font-size: 1.5em;
 					color: #777;
 					max-width: 60%;
 					}
 					
 			#main .box .text-container p {
-				font-size: 2em;
+				font-size: 1.5em;
 				margin-bottom: 1.5em;
 				}
 				
@@ -3623,6 +3623,47 @@
 					max-width: 100%;
 					}
 			}
+			
+	.carousel {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		padding: 2em 0;
+	}
+
+	.carousel-track {
+		display: flex;
+		width: max-content;
+		animation: scroll 20s linear infinite; /* Adjust speed here */
+	}
+
+		.carousel-track img {
+			max-width: 150px; /* Image size */
+			margin: 0 10px; /* Space between images */
+			transition: transform 0.2s ease-in-out; /* Zoom effect */
+		}
+
+			.carousel-track img:hover {
+				transform: scale(1.2);
+			}
+
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-100%); /* Move carousel to the left */
+		}
+	}
+
+	@media screen and (max-width: 980px) {
+		.carousel-track img {
+			max-width: 100px;
+		}
+	}
 
 /* Footer */
 
