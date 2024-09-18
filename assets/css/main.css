@@ -3382,7 +3382,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #fff;
-		padding: 20em 0 20em 0;
+		padding: 20em 0 25em 0;
 		text-align: center;
 		display: flex;
 		justify-content: center;
@@ -3392,6 +3392,7 @@
 		overflow: hidden;
 		position: relative;
 		z-index: 1;
+		min-height: 100vh;
 	}
 	
 	#banner::before {
@@ -3791,7 +3792,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 10em 0 18em 0;
+				padding: 10em 0 20em 0;
 			}
 
 	}
