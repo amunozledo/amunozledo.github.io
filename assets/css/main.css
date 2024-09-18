@@ -3586,11 +3586,19 @@
 			gap: 2em;
 			}
 			
+			#main .box .image-container {
+				margin-bottom: 1.5em;
+				text-align: center;
+			}
+				
+			
 			#main .box .image-container img {
 				height: 20em;
+				width: auto;
 				object-fit: contain;
 				flex-shrink: 0;
-				margin-left: 1em;
+				display: block;
+				margin: 0 auto;
 				}
 				
 			#main .box .text-container {
@@ -3617,8 +3625,9 @@
 					flex-direction: column;
 					text-align: center;
 					}
-				#main .box .image-container {
-					margin-bottom: 1.5em;
+				#main .box .image-container img {
+					height: auto;
+					width: 100%;
 					}
 				#main .box .text-container {
 					max-width: 100%;
