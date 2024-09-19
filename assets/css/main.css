@@ -3661,7 +3661,7 @@
 			}
 			
 		.carousel-track img {
-			height: 80%;
+			height: 20em;
 			width: auto;
 			transition: transform 0.2s ease-in-out;
 			scroll-snap-align: center;
