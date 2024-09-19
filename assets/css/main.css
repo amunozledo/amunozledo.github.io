@@ -3530,7 +3530,7 @@
 			}
 			
 	body.landing #main {
-		margin-top: -14em;
+		margin-top: 0em;
 		}
 			
 		#main .box.special .content {
@@ -3587,9 +3587,10 @@
 			}
 			
 			#main .box .image-container {
-				height: 20em;
-				margin-bottom: 1.5em;
+				height: 30em;
+				flex-direction: column;
 				text-align: right;
+				align-items: flex-start;
 			}
 				
 			
@@ -3599,7 +3600,7 @@
 				object-fit: contain;
 				flex-shrink: 0;
 				display: block;
-				margin: 0 auto;
+				margin-bottom: 1.5em;
 				}
 				
 			#main .box .text-container {
