@@ -3592,11 +3592,12 @@
 				text-align: right;
 				align-items: flex-start;
 				gap: 1em;
+				padding-top: 4em;
 			}
 				
 			
 			#main .box .image-container img {
-				max-height: 30em;
+				max-height: 25em;
 				width: auto;
 				margin-bottom: 1.5em;
 				}
