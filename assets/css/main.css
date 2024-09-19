@@ -3637,75 +3637,65 @@
 					}
 			}
 			
+
 	.carousel {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		position: relative;
-		max-width: 80%;
+		width: 100%;
+		height: 25em; 
 		overflow: hidden;
 		margin: 0 auto;
-		display: flex;
 		padding: 2em 0;
-	}
-
-	.carousel-track {
-		display: flex;
-		overflow-x: scroll;
-		scroll-behavior: smooth;
-		white-space: nowrap;
-		gap: 1em;
-		padding: 1em;
-	}
-
-		.carousel-track img {
-			height: 15em;
-			width: auto;
-			transition: transform 0.2s ease-in-out;
 		}
 
-			.carousel-track img:hover {
-				transform: scale(1.2);
+		.carousel-track {
+			display: flex;
+			overflow-x: scroll;
+			scroll-behavior: smooth;
+			gap: 1em;
+			padding: 1em;
+			scroll-snap-type: x mandatory;
+			-webkit-overflow-scrolling: touch;
 			}
 			
-	.carousel-control {
-		background-color: rgba(0, 0, 0, 0.5);
-		color: white;
-		border: none;
-		padding: 0.5em 1em;
-		cursor: pointer;
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		font-size: 1.5em;
-		z-index: 1;
-	}
-	
-		.carousel-control.prev {
-			left: 0;
-		}
-		
-		.carousel-control.next {
-			right: 0;
-		}
-		
-		.carousel-control.hover {
-			background.color: rgba(0, 0, 0, 0.8);
-		}
-
-	@keyframes scroll {
-		0% {
-			transform: translateX(0);
-		}
-		100% {
-			transform: translateX(-100%); /* Move carousel to the left */
-		}
-	}
+		.carousel-track img {
+			height: 80%;
+			width: auto;
+			transition: transform 0.2s ease-in-out;
+			scroll-snap-align: center;
+			}
+			
+			.carousel-track img:hover {
+				transform: scale(1.2);
+				}
+				
+		.carousel-control {
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			border: none;
+			padding: 0.5em 1em;
+			cursor: pointer;
+			font-size: 1.5em;
+			z-index: 1;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			}
+			
+			.carousel-control.prev {
+				left: 0;
+				}
+				
+			.carousel-control.next {
+				right: 0;
+				}
 
 	@media screen and (max-width: 980px) {
 		.carousel-track img {
 			max-width: 100px;
-		}
+			}
 	}
 
 /* Footer */
