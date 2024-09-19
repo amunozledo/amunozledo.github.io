@@ -3503,7 +3503,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 1em 0;
 		position: relative;
 		z-index: 2;
 		background: none;
@@ -3541,20 +3541,20 @@
 			}
 			
 			#main .box.special .image-container img {
-				height: 20em;
+				height: 30em;
 				object-fit: contain;
 				flex-shrink: 0;
 				margin-left: 1em;
 				}
 				
 			#main .box.special .text-container {
-					font-size: 1em;
+					font-size: 1.25em;
 					color: #777;
 					max-width: 60%;
 					}
 					
 			#main .box.special .text-container p {
-				font-size: 1em;
+				font-size: 1.25em;
 				margin-bottom: 1.5em;
 				}
 				
