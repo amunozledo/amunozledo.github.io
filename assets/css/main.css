@@ -3578,7 +3578,14 @@
 					max-width: 100%;
 					}
 			}
-			
+
+		#main .box {
+			display: flex;
+			flex-direction: column;
+			gap: 2em;
+			padding: 2em 0;
+			}
+		
 		#main .box .content {
 			display: flex;
 			align-items: flex-start;
