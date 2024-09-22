@@ -3580,10 +3580,9 @@
 			}
 
 		#main .box {
-			display: flex;
-			flex-direction: column;
-			gap: 2em;
-			padding: 2em 0;
+			display: block;
+			padding: 2em;
+			margin: 0 auto;
 			}
 		
 		#main .box .content {
@@ -3591,6 +3590,7 @@
 			align-items: flex-start;
 			justify-content: space-between;
 			gap: 2em;
+			margin-bottom: 2em;
 			}
 			
 			#main .box .image-container {
