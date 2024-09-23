@@ -3584,6 +3584,10 @@
 			padding: 2em;
 			margin: 0 auto;
 			}
+			
+			#main .box p {
+				font-size: 1.5em
+			}
 		
 		#main .box .content {
 			display: flex;
@@ -3616,7 +3620,7 @@
 					}
 					
 			#main .box .text-container p {
-				font-size: 1em;
+				font-size: 1.5em;
 				margin-bottom: 1.5em;
 				}
 				
