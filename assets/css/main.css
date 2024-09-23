@@ -4176,6 +4176,7 @@
 			}
 
 				.box.features .features-row {
+					margin: 1em;
 					border-top: 0;
 					padding: 0;
 				}
