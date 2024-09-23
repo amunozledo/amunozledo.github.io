@@ -3532,6 +3532,10 @@
 	body.landing #main {
 		margin-top: 0em;
 		}
+	
+		#main .box.special {
+			margin: 2em;
+		}
 			
 		#main .box.special .content {
 			display: flex;
