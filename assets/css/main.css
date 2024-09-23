@@ -3607,10 +3607,23 @@
 				padding-top: 4em;
 			}
 			
-			#main .box .image-container img {
-				max-height: 25em;
-				width: auto;
-				margin-bottom: 1.5em;
+				#main .box .image-container img {
+					max-height: 25em;
+					width: auto;
+					margin-bottom: 1.5em;
+				}
+				
+			#main .box .image-contaiter-alt {
+				display: felx;
+				justify-content: center;
+				gap: 1em;
+				margin-top: 1.5em;
+			}
+			
+				#main .box .image-container-alt img{
+					max-height: 25em;
+					wifth: auto;
+					object-fit: cover;
 				}
 				
 			#main .box .text-container {
