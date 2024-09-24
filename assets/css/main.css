@@ -239,7 +239,7 @@
 				}
 	
 	body.outreach {
-		background-image: url("images/dutchH.JPEG");
+		background-image: url("images/sierras2.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -310,6 +310,44 @@
 				}
 				
 			body.interests #header a {
+				color: #fff;
+				}
+				
+	body.plk {
+		background-image: url("images/dutchH.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		position: relative;
+	}
+	
+	body.plk::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 0;
+		pointer-events: none;
+		}
+	
+		body.plk #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.plk #header.alt {
+				border-bottom: none;
+				}
+				
+			body.plk #header a {
 				color: #fff;
 				}
 	
