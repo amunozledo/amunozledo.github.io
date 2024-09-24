@@ -2752,7 +2752,7 @@
 		}
 			
 			.image.right img {
-				max-height: 30em;
+				max-height: 20em;
 				width: auto;
 			}
 
@@ -3752,7 +3752,7 @@
 		justify-content: space-between;
 		position: relative;
 		width: 100%;
-		height: 25em; 
+		height: 30em; 
 		overflow: hidden;
 		margin: 0 auto;
 		padding: 2em 0;
