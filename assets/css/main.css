@@ -3618,6 +3618,7 @@
 	
 		#main .box.special {
 			margin: 1.5em;
+			padding: 2em 0;
 		}
 			
 		#main .box.special .content {
@@ -3668,7 +3669,7 @@
 
 		#main .box {
 			display: block;
-			padding: 2em;
+			padding: 2em 0;
 			margin: 0 auto;
 			max-width: 1200px;
 			}
