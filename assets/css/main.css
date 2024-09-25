@@ -390,6 +390,46 @@
 			body.treeline #header a {
 				color: #fff;
 				}
+				
+	body.conservation {
+		background-image: url("images/cali_view.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		position: relative;
+	}
+	
+	body.conservation::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: none;
+		z-index: 0;
+		pointer-events: none;
+		}
+	
+		body.conservation #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.conservation #header.alt {
+				border-bottom: none;
+				}
+				
+			body.conservation #header a {
+				color: #fff;
+				}
+
 
 
 	body, input, select, textarea {
