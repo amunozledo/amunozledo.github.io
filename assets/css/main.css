@@ -417,6 +417,33 @@
 			body.conservation #header a {
 				color: #fff;
 				}
+				
+	body.trophic {
+		background-image: url("images/calm_sea.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		position: relative;
+	}
+	
+		body.trophic #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.trophic #header.alt {
+				border-bottom: none;
+				}
+				
+			body.trophic #header a {
+				color: #fff;
+				}
 
 
 
