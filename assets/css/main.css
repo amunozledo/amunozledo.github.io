@@ -3763,8 +3763,9 @@
 		#main .box {
 			display: block;
 			padding: 2em 2em;
-			margin: 0 auto;
+			margin: 2em 0;
 			max-width: 1200px;
+			overflow: hidden;
 			}
 			
 			#main .box p {
