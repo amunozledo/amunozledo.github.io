@@ -444,6 +444,33 @@
 			body.trophic #header a {
 				color: #fff;
 				}
+				
+	body.fire {
+		background-image: url("images/sequi.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		position: relative;
+	}
+	
+		body.fire #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.fire #header.alt {
+				border-bottom: none;
+				}
+				
+			body.fire #header a {
+				color: #fff;
+				}
 
 
 
