@@ -2799,6 +2799,17 @@
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
+		
+		.image.left.alt {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+		
+			.image.left.alt img{
+				max-height: 25em;
+				width: auto;
+			}
 
 		.image.right {
 			float: right;
