@@ -483,6 +483,45 @@
 			body.fire #header a {
 				color: #fff;
 				}
+				
+	body.underground {
+		background-image: url("images/inyo.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		position: relative;
+	}
+	
+	body.underground::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: none;
+		z-index: 0;
+		pointer-events: none;
+		}
+	
+		body.underground #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.underground #header.alt {
+				border-bottom: none;
+				}
+				
+			body.underground #header a {
+				color: #fff;
+				}
 
 				
 	body, input, select, textarea {
