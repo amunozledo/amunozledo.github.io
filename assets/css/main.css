@@ -522,6 +522,45 @@
 			body.underground #header a {
 				color: #fff;
 				}
+				
+	body.farm {
+		background-image: url("images/booknplow.JPEG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		position: relative;
+	}
+	
+	body.farm::before {
+		content: '';
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: none;
+		z-index: 0;
+		pointer-events: none;
+		}
+	
+		body.farm #header {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 1em 0;
+			}
+			
+			body.farm #header.alt {
+				border-bottom: none;
+				}
+				
+			body.farm #header a {
+				color: #fff;
+				}
 
 				
 	body, input, select, textarea {
