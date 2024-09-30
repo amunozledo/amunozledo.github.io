@@ -238,7 +238,7 @@
 				}
 	
 	body.outreach {
-		background-image: url("images/sierras2.JPEG");
+		background-image: url("images/kings_canyon.JPEG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3793,6 +3793,12 @@
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
 				font-size: 1em;
+			}
+			
+		#main > header.interests-header {
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 1em; 
+			border-radius: 5px;
 			}
 			
 	body.landing #main {
